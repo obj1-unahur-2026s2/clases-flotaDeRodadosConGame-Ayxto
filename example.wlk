@@ -32,6 +32,7 @@ class AutoRenaultKwid {
   }
 }
 
+/*
 class AutoTrafic {
   var interior = comodo
   var capacidad = 0
@@ -70,7 +71,7 @@ class AutoTrafic {
     peso = 4000 + pesoMotor + pesoInterior
   }
 }
-
+*/
 /* ----------------------------------------------------------------- */
 object unaTrafic {
   var peso = 4000
@@ -80,6 +81,8 @@ object unaTrafic {
   method pesoTrafic() {
     peso = 4000
   }
+
+
 
 }
 
