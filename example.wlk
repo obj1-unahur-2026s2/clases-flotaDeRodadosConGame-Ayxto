@@ -70,3 +70,25 @@ class AutoTrafic {
     peso = 4000 + pesoMotor + pesoInterior
   }
 }
+
+/* ----------------------------------------------------------------- */
+object unaTrafic {
+  var peso = 4000
+  var velocidad = 0
+  var capadidad = 0
+
+  method pesoTrafic() {
+    peso = 4000
+  }
+
+}
+
+object motorPulenta {
+  method peso() = 800
+  method velocidad() = 130 
+}
+
+object motorBatato {
+  method peso() = 500
+  method velocidad() = 80 
+}
