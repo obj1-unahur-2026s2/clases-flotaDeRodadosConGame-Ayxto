@@ -75,15 +75,20 @@ class AutoTrafic {
 /* ----------------------------------------------------------------- */
 object unaTrafic {
   var peso = 4000
-  var motor = 
-  var interior =
   var velocidad = 0
   var capadidad = 0
 
   method pesoTrafic() {
-    return peso = 4000 + pesoMotor + pesoInterior
+    return peso = 4000 + pesoMotor + interior.interiorComodo.peso()
   }
 
+  method interior() {
+    if interiorComodo(){
+      interiorComodo
+    }else{
+      interiorPopular
+    }
+  } 
 
 } 
 
