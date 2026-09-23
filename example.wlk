@@ -1,7 +1,7 @@
 class AutoChevroletCorsa {
-  const capacidad = 4
-  const velocidad = 150
-  const peso = 1300
+  const property capacidad = 4
+  const property velocidad = 150
+  const property peso = 1300
   var color
 }
 
