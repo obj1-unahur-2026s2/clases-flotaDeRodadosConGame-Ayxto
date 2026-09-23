@@ -66,7 +66,7 @@ class AutoTrafic {
     }
   }
 
-  method peso(pesoMotor, pesoInterior) {
-    peso  4000 + pesoMotor + pesoInterior
+  method peso() {
+    peso = 4000 + pesoMotor + pesoInterior
   }
 }
