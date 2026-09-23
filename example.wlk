@@ -79,11 +79,18 @@ object unaTrafic {
   var capadidad = 0
 
   method pesoTrafic() {
-    peso = 4000
+    return peso = 4000 + pesoMotor + pesoInterior
   }
+} 
 
+object interiorComodo {
+  method capacidad() = 5
+  method peso() = 700  
+}
 
-
+object interiorPopular {
+  method capacidad() = 12
+  method peso() = 1000 
 }
 
 object motorPulenta {
