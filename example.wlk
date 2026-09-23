@@ -2,21 +2,28 @@ class AutoChevroletCorsa {
   const property capacidad = 4
   const property velocidad = 150
   const property peso = 1300
-  var color
+  const property color
+
+  /* FORMA PERFECTA DE HACERLO, el unico que se dejaba era color
+  method capacidad() = 4
+  method velocidad() = 150
+  method peso() = 1300
+  */
 }
 
 class AutoRenaultKwid {
-  var tieneTanqueAdicional
+  const tieneTanqueAdicional
   var capacidad = 4
   var velocidad = 120
   var peso = 1200
-  
+
+  //method color() = azul FALTO EL METODO
   
   method tanqueAdicional() {
     if (tieneTanqueAdicional) {
       capacidad = 3
     }
-  }
+  } 
 
   method velocidadPorPasajero() {
     if (tieneTanqueAdicional) {
